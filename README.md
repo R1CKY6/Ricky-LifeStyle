@@ -8,5 +8,5 @@ https://discord.gg/tHAbhd94vS
 ![Alt text](https://cdn.discordapp.com/attachments/1125054086614634496/1125054268911657002/preview_lifestyle.png)
 
 # Usage
-Client Side: TriggerEvent('ricky-client:openLifeStyle')
+Client Side: TriggerEvent('ricky-client:openLifeStyle')<br>
 Server Side : TriggerClientEvent('ricky-client:openLifeStyle', playerId)
