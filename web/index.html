@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Life Style</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+
+        <div id="app">
+            <div class="title"><span>SELEZIONA IL TUO STILE DI VITA</span></div>
+
+            <div class="containerStili">
+                <div v-for="v in listaStili" class="stile">
+                    <div class="containerNomeStile"><span>{{v.nome}}</span></div>
+
+                    <div class="containerDescrizione">
+                        {{v.descrizione}}
+                    </div>
+                    <span style="position: absolute; width: 100%; display: flex; justify-content: center; top: 22.4074vh; font-size: 2.3148vh;">OGGETTI</span>
+
+                    <div class="containerOggetti">
+                        <span v-for="k in v.oggetti">{{k.quantity}}x {{k.label}}</span>
+                    </div>
+
+                    <div class="immagineStile">
+                        <div class="immagine" v-bind:style="setImmagine(v.nome)"></div>
+                    </div>
+
+
+                    <div @click="play(v.id)" class="playButton"><span>PLAY</span></div>
+
+                </div>
+            </div>
+        </div>
+        
+        <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+        <script src='https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js'></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

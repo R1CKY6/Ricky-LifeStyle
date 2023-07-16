@@ -1,0 +1,162 @@
+@import url("db.onlinewebfonts.com/c/264e2ce2df4ac93e29576716c566f827?family=ProximaNovaA-Semibold");
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Proxima Nova';
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.11em;
+    overflow: hidden;
+}
+
+.playButton:hover,
+.stile:hover {
+    cursor: pointer;
+}
+
+#app {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(63.56% 152.1% at 51.88% 65.97%, #000000 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.title {
+    position: absolute;
+    height: 13.7037vh;
+    width: 100%;
+    border-bottom: 0.0926vh solid #464646;
+}
+
+.title span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.6296vh;
+}
+
+::-webkit-scrollbar {
+    border-radius: 0.463vh;
+}
+
+::-webkit-scrollbar-track {
+    background: #464646;
+    border-radius: 0.463vh;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d8d8d8a4;
+    border-radius: 0.463vh;
+}
+
+.containerStili {
+    position: absolute;
+    top: 16.9444vh;
+    left: 9.3963vh;
+    width: 166.8148vh;
+    height: 80.7593vh;
+    display: flex;
+    overflow-x: auto;
+}
+
+.stile {
+    position: relative;
+    float: left;
+    margin-right: 6.3704vh;
+    height: 75.8333vh;
+    min-width: 35.17vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/stile.png);
+}
+
+.stile .containerNomeStile {
+    position: absolute;
+    width: 100%;
+    height: 6.7593vh;
+    border-bottom: 0.0926vh solid #464646;
+}
+
+.containerNomeStile span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.037vh;
+}
+
+.stile .containerDescrizione {
+    position: absolute;
+    top: 7.2222vh;
+    height: 14.7222vh;
+    width: 29.9259vh;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 1.4815vh;
+    color: #464646;
+    padding: 0.5vh;
+}
+
+.stile .containerOggetti {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 24.2593vh;
+    height: 14.537vh;
+    top: 24.7222vh;
+    overflow-y: auto;
+}
+
+.containerOggetti span {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0.2778vh;
+    color: #464646;
+    font-size: 1.4815vh;
+}
+
+.immagineStile {
+    position: absolute;
+    left: -3.1296vh;
+    top: 39.3704vh;
+    height: 34.8vh;
+    width: 23.2407vh;
+}
+
+.immagineStile .immagine {
+    height: 35.463vh;
+    width: 23.2407vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.playButton {
+    position: absolute;
+    width: 13.0741vh;
+    height: 5.0926vh;
+    background: rgba(216, 216, 216, 0.05);
+    border-radius: 0.463vh;
+    border: 0.0926vh solid #464646;
+    left: 21.1111vh;
+    bottom: 2vh;
+}
+
+.playButton span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8519vh;
+}
