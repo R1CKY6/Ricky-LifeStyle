@@ -36,7 +36,6 @@ Config.Stili = {
         nome= "CRIMINALE",
         id = "criminale",
         image = 'criminale.png',
-        cutscene = false,
         descrizione=  "Fatti coinvolgere in attività illegali, fai rapine, traffica droga e guadagna più soldi possibili.",
         oggetti = {
             {
@@ -65,7 +64,6 @@ Config.Stili = {
         nome= "FORZA DELL'ORDINE",
         id = "fdo",
         image = 'fdo.png',
-        cutscene = false,
         descrizione=  "Applica la legge e mantieni l’ordine nell’interà città",
         oggetti = {
             {
@@ -94,7 +92,6 @@ Config.Stili = {
         nome = "CIVILE",
         id = "civile",
         image = 'civile.png',
-        cutscene = false,
         descrizione =  "Non farti coinvolgere nei giri dei criminali e dei poliziotti, stai nel tuo e guadagnati soldi facendo lavori onesti come il macellaio.",
         oggetti = {
             {
