@@ -1,4 +1,7 @@
-@import url("db.onlinewebfonts.com/c/264e2ce2df4ac93e29576716c566f827?family=ProximaNovaA-Semibold");
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(../fonts/proxima_nova.otf);
+}
 
 * {
     margin: 0;
