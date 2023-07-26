@@ -45,10 +45,6 @@ RegisterNUICallback('close', function(data, cb)
     SetNuiFocus(false, false)
 end)
 
-RegisterNUICallback('close', function(data, cb)
-    SetNuiFocus(false, false)
-end)
-
 RegisterNetEvent('ricky-client:openLifeStyle')
 AddEventHandler('ricky-client:openLifeStyle', function()
     OpenStyleMenu()
