@@ -38,6 +38,7 @@ RegisterNUICallback('play', function(data, cb)
             item = v.oggetti
         end
     end
+    TriggerEvent('ricky-client:onChooseLifeStyle', id)
     TriggerServerEvent('ricky-server:lifeStyleChoose', id, item)
 end)
 
