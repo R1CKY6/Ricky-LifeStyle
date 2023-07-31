@@ -5,7 +5,7 @@ Advanced Life Style | FiveM
 https://discord.gg/tHAbhd94vS
 
 # Screenshot
-![Alt text](https://cdn.discordapp.com/attachments/1125054086614634496/1125054268911657002/preview_lifestyle.png)
+![Alt text](https://cdn.discordapp.com/attachments/1125054086614634496/1130069136047874098/preview_lifestyle.png)
 
 # Open Menu
 Client Side : TriggerEvent('ricky-client:openLifeStyle')<br>
